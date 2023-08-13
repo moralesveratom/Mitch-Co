@@ -1,1 +1,1 @@
-# Mitch&Co
+# MitchCo
