@@ -1,6 +1,9 @@
+/* Pagina completa */
 * { 
     margin: 0px;
 }
+
+/* Navbar */
 header {
     background-color: #0A57A7;
     display: flex;
@@ -31,10 +34,11 @@ img {
     width: 10em;
 }
 
+/* Productos */
 .main-section-article-productos {
     background-color: #0DA1CF;
     color: white;
-
+    
 }
 
 
