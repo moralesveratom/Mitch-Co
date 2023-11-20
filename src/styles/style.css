@@ -1,0 +1,42 @@
+* { 
+    margin: 0px;
+}
+header {
+    background-color: #0A57A7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.header-logo {
+    width: 10em;
+}
+
+.header-items {
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+img {
+    width: 10em;
+}
+
+.main-section-article-productos {
+    background-color: #0DA1CF;
+    color: white;
+
+}
+
+
+
+
