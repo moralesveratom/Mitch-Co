@@ -38,9 +38,28 @@ img {
 .main-section-article-productos {
     background-color: #0DA1CF;
     color: white;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3%;
 }
 
+.main-section-article-productos-contenido {
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
 
+.main-section-article-productos-imagen-gato {
+    margin-right: 20%;
+}
 
-
+.main-section-article-productos-boton-visitar {
+    background-color: #0A57A7;
+    border-radius: 10px;
+    padding: 10px 15px;
+} .main-section-article-productos-boton-visitar:hover {
+    background-color: white;
+    color: #0A57A7; 
+    border-radius: 10px;
+    padding: 10px 15px;
+}
