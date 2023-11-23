@@ -1,23 +1,26 @@
 /* Pagina completa */
 * { 
     margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Navbar */
 header {
-    background-color: #0A57A7;
+    background-color: #071E62;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0px;
 }
 
 .header-logo {
-    width: 10em;
+    width: 8em;
 }
 
 .header-items {
     margin-right: 30px;
+} .header-items:hover {
+    color: #0DA1CF;
 }
 
 a {
@@ -31,7 +34,7 @@ li {
 }
 
 img {
-    width: 10em;
+    width: 15em;
 }
 
 /* Productos */
@@ -41,7 +44,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 3%;
+    padding-top: 10px;
 }
 
 .main-section-article-productos-contenido {
@@ -49,17 +52,15 @@ img {
     margin-bottom: 2%;
 }
 
-.main-section-article-productos-imagen-gato {
-    margin-right: 20%;
-}
-
 .main-section-article-productos-boton-visitar {
-    background-color: #0A57A7;
-    border-radius: 10px;
-    padding: 10px 15px;
+    background-color: #071E62;
+    border-radius: 20px;
+    padding: 10px 30px;
 } .main-section-article-productos-boton-visitar:hover {
     background-color: white;
-    color: #0A57A7; 
-    border-radius: 10px;
-    padding: 10px 15px;
+    color: #071E62; 
+}
+
+.main-section-article-productos-imagen-gato {
+    margin-right: 20%;
 }
